@@ -20,7 +20,8 @@ export default function Form({ formId = 'SubmitQuery', via ,formVia}) {
   const projectMap = {
     discovery: 'Trump Residence Gurgaon-Discovery',
     remarketing: 'Trump Residence Gurgaon-Remarketing',
-    placement: 'Trump Residence Gurgaon-Placement'
+    placement: 'Trump Residence Gurgaon-Placement',
+    branding: 'Trump Residence Gurgaon-Branding'
   };
   const vProject = projectMap[formVia] ?? 'Trump Residence Gurgaon';
   console.log(formVia)
